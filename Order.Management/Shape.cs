@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 // INSP RS Unused imports.
+
 namespace Order.Management
 {
     abstract class Shape
@@ -24,7 +25,6 @@ namespace Order.Management
         {
             return NumberOfRedShape + NumberOfBlueShape + NumberOfYellowShape;
         }
-
         // INSP RS Remove unused method.
         public int AdditionalChargeTotal()
         {

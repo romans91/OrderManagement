@@ -16,7 +16,6 @@ namespace Order.Management
             base.DueDate = dueDate;
             base.OrderedBlocks = shapes;
         }
-
         // INSP RS Code for report generation and printing is duplicated across subclasses. Consider moving to superclass or better yet a dedicated UI class. 
         // GenerateReport, generateTable, PrintLine, PrintRow, AlignCentre methods are all duplicated.
         public override void GenerateReport()

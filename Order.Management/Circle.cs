@@ -17,7 +17,6 @@ namespace Order.Management
             base.NumberOfBlueShape = blue;
             base.NumberOfYellowShape = yellow;
         }
-
         // INSP RS Four "Total" methods below are duplicated across subclasses. Move them to Shape.cs.
         public override int Total()
         {

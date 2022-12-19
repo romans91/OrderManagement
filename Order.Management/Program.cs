@@ -84,6 +84,7 @@ namespace Order.Management
 
         // INSP RS Move these to different class and combine three report methods into one factory that isn't aware of the type of reports it is generating.
         // Generate Painting Report 
+        // INSP RS Move these to different class and combine three report methods into one factory that isn't aware of the type of reports it is generating.
         private static void PaintingReport(string customerName, string address, string dueDate, List<Shape> orderedShapes)
         {
             PaintingReport paintingReport = new PaintingReport(customerName, address, dueDate, orderedShapes);
